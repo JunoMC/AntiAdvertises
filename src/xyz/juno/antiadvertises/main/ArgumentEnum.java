@@ -16,7 +16,7 @@ public enum ArgumentEnum {
 	}
 	
 	public boolean UseOnCmd() {
-		return UseOnCmd;
+		return UseOnCmd ? true : false;
 	}
 	
 	public String RegEx() {

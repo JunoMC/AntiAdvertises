@@ -159,6 +159,6 @@ public class AsyncPlayerChat implements Listener {
 	}
 	
 	public boolean Checked(String ip, String matches) {
-		return ip.matches(matches);
+		return ip.matches(matches)? true : false;
 	}
 }
