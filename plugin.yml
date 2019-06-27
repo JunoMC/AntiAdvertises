@@ -1,0 +1,16 @@
+name: AntiAdvertises
+version: 0.1-beta
+author: Juno
+main: xyz.juno.antiadvertises.main.AntiAdvertises
+
+commands:
+  antiadvertises:
+    aliases: [antiadvertise, aa]
+    permission: aa.help
+permissions:
+  aa.*:
+    default: op
+    children:
+      aa.info: true
+      aa.reload: true
+      aa.help: true
